@@ -75,7 +75,7 @@
 
       function connect() {
 
-        let HOST = location.origin.replace(/^http/, 'ws') + ':7187';
+        let HOST = location.origin.replace(/^http/, 'ws');
         let connection = new WebSocket(HOST);
 
         connection.onopen = () => {
