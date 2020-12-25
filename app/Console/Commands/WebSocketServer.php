@@ -48,8 +48,9 @@ class WebSocketServer extends Command
                      new WebSocketController()
                  )
              ),
-             8090
+             7187
         );
+        echo "php websocket server started on 7187 \n";
         $server->run();
     }
 }

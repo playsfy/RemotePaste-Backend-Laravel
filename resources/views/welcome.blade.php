@@ -38,12 +38,12 @@
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                    <h1>GITCLIP</h1>
+                    <h1>CLIPUP</h1>
                 </div>
 
-                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
-                    <div class="grid grid-cols-1 md:grid-cols-2">
-                        <textarea name="log" id="log" style="width:100%;background:black; color: white;" rows="14"></textarea>
+                <div class=" bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
+                    <div class="grid grid-cols-2">
+                        <textarea name="log" id="log" style="width:100%;background:black; color: white;" rows="20"></textarea>
                     </div>
                 </div>
 
@@ -75,18 +75,20 @@
 
       function connect() {
 
-        let HOST = location.origin.replace(/^http/, 'ws')
+        let HOST = location.origin.replace(/^http/, 'ws') + '7187';
         let connection = new WebSocket(HOST);
 
         connection.onopen = () => {
+          addText('connected');
           console.log('connected');
         };
 
         connection.onclose = error => {
+          addText('Socket is closed.');
           console.log('Socket is closed. Reconnect will be attempted in 1 second.', error.reason);
           setTimeout(function() {
             connect();
-            console.log('Reconnecting');
+            addText('Reconnecting');
           }, 1000);
         };
 
@@ -96,10 +98,14 @@
 
         connection.onmessage = event => {
           console.log('received', event.data.toString());
-          var current = new Date();
-          document.getElementById("log").value += '\n' + current.toLocaleString() + '\t' + event.data.toString();
-          document.getElementById("log").scrollTop = document.getElementById("log").scrollHeight;
+          addText(event.data.toString());     
         };
+
+        function addText(text) {
+            var current = new Date();
+            document.getElementById("log").value += '\n' + current.toLocaleString() + '\t' + text;
+            document.getElementById("log").scrollTop = document.getElementById("log").scrollHeight;
+        }
       }
     </script>
 </html>
