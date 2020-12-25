@@ -12,6 +12,7 @@ $server = IoServer::factory(
              new WebSocketController()
          )
      ),
-     4581
+     8090
 );
+echo "php websocket server started on 8090";
 $server->run();
