@@ -1,6 +1,6 @@
 <?php
 
-use App\Events\WebsocketDemoEvent;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,13 +13,10 @@ use App\Events\WebsocketDemoEvent;
 |
 */
 
-Route::get('/', 'ChatsController@index');
+Route::get('/', function () {
+    return view('welcome');
+});
 
-Route::get('/chats', 'ChatsController@index');
-
-Route::get('/messages', 'ChatsController@fetchMessages');
-Route::post('/messages', 'ChatsController@sendMessage');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
