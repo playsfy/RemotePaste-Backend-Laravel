@@ -76,7 +76,7 @@
       function connect() {
 
         let HOST = location.origin.replace(/^http/, 'ws')
-        let connection = new WebSocket(HOST);
+        let connection = new WebSocket('ws://https://clinext.herokuapp.com:6001');
 
         connection.onopen = () => {
           console.log('connected');
