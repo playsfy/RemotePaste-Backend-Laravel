@@ -1,3 +1,2 @@
-npm install && npm run dev
-php websocketserver.php
+ws: php websocketserver.php
 web: vendor/bin/heroku-php-apache2 public/
