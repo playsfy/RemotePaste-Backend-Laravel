@@ -75,8 +75,8 @@
 
       function connect() {
 
-        let HOST = location.origin.replace(/^http/, 'ws');
-        let connection = new WebSocket(HOST);
+        let HOST = location.origin.replace(/^http/, 'ws')
+        let connection = new WebSocket('ws://clipup.herokuapp.com');
 
         connection.onopen = () => {
           addText('connected');
