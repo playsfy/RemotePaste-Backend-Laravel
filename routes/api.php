@@ -19,9 +19,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('login', [UserController::class, 'ologin']);
+Route::post('login', [UserController::class, 'ologin']);
 
-Route::get('register', [UserController::class, 'oregister']);
+Route::post('register', [UserController::class, 'oregister']);
 
 Route::get('listUsers', [UserController::class, 'userlist'])->middleware('auth:api');
 
