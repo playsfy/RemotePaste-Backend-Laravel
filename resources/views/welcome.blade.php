@@ -32,15 +32,15 @@
               <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="#">About Us</a></li>
               <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="#">Features</a></li>
             </ul>
-            <div class="hidden lg:block"><a class="mr-2 inline-block px-4 py-3 text-xs text-blue-600 hover:text-blue-700 font-semibold leading-none border border-blue-200 hover:border-blue-300 rounded" href="/login">Log In</a><a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-blue-600 hover:bg-blue-700 text-white rounded" href="/register">Sign Up</a></div>
+            <div class="hidden lg:block"><a class="mr-2 inline-block px-4 py-3 text-xs text-green-400 hover:text-green-600 font-semibold leading-none border border-green-200 hover:border-green-300 rounded" href="/login">Log In</a><a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-green-400 hover:bg-green-600 text-white rounded" href="/register">Sign Up</a></div>
           </nav>
           <div class="py-12 text-center">
             <div class="max-w-lg mx-auto mb-8">
               <h2 class="text-3xl md:text-4xl mb-4 font-bold font-heading">
                 <span>Copy</span>
-                <span class="text-blue-600">once</span>
+                <span class="text-green-400">once</span>
                 <span>paste</span>
-                <span class="text-blue-600">anywhere</span>
+                <span class="text-green-400">anywhere</span>
               </h2>
               <p class="text-blueGray-400 leading-relaxed">The quick brown fox jumps over the lazy dog.</p>
             </div>
