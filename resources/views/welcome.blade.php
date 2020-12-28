@@ -17,7 +17,7 @@
       <section class="xl:bg-contain bg-top bg-no-repeat" style="background-image: url('metis-assets/backgrounds/intersect.svg');">
         <div class="container px-4 mx-auto">
           <nav class="flex justify-between items-center py-6">
-            <a class="text-3xl font-semibold leading-none" href="#"><img class="h-10" src="metis-assets/logos/metis/metis.svg" alt="" width="auto"></a>
+            <a class="text-3xl font-semibold leading-none" href="#"><img class="h-10" src="images/clipup-logo.png" alt="" width="auto"></a>
             <div class="lg:hidden">
               <button class="navbar-burger flex items-center py-2 px-3 text-blue-600 hover:text-blue-700 rounded border border-blue-200 hover:border-blue-300">
                 <svg class="fill-current h-4 w-4" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -44,7 +44,8 @@
               </h2>
               <p class="text-blueGray-400 leading-relaxed">The quick brown fox jumps over the lazy dog.</p>
             </div>
-            <div><a class="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-600 hover:bg-blue-700 rounded" href="#">Check Now</a><a class="block sm:inline-block py-4 px-8 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white rounded" href="#">Documentation</a></div>
+            <div>
+                <a class="block sm:inline-block py-4 px-8 text-xs text-blueGray-500 hover:text-blueGray-600 border border-green-200 text-center font-semibold leading-none bg-white rounded" href="#">Documentation</a></div>
           </div>
           <div class="relative max-w-3xl mt-6 mb-8 mx-auto">
             <img src="metis-assets/elements/pattern-small.png" alt="">
