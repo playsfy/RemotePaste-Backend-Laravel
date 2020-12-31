@@ -99,7 +99,7 @@
                     </svg>
                   </div>
                   <div>
-                    <h3 class="mb-2 text-xl font-semibold font-heading">Easy to customize</h3>
+                    <h3 class="mb-2 text-xl font-semibold font-heading">Work with you & background</h3>
                     <p class="text-blueGray-400 leading-loose">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.</p>
                   </div>
                 </div>
@@ -110,7 +110,7 @@
                     </svg>
                   </div>
                   <div>
-                    <h3 class="mb-2 text-xl font-semibold font-heading">Flexible software</h3>
+                    <h3 class="mb-2 text-xl font-semibold font-heading">Flexible and cross platefom software</h3>
                     <p class="text-blueGray-400 leading-loose">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.</p>
                   </div>
                 </div>
@@ -121,7 +121,7 @@
                     </svg>
                   </div>
                   <div>
-                    <h3 class="mb-2 text-xl font-semibold font-heading">Best access for all of the resources</h3>
+                    <h3 class="mb-2 text-xl font-semibold font-heading">Best access for your clipboard</h3>
                     <p class="text-blueGray-400 leading-loose">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.</p>
                   </div>
                 </div>
