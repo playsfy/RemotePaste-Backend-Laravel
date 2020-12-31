@@ -42,7 +42,7 @@
                 <span>paste</span>
                 <span class="text-green-400">anywhere</span>
               </h2>
-              <p class="text-blueGray-400 leading-relaxed">The quick brown fox jumps over the lazy dog.</p>
+              <p class="text-blueGray-400 leading-relaxed">Your clipboard data are secured so only you can read or paste to device, and nobody in between, not even <strong>CLIPUP</strong>./p>
             </div>
             <div>
                 <a class="block sm:inline-block py-4 px-8 text-xs text-blueGray-500 hover:text-blueGray-600 border border-green-200 text-center font-semibold leading-none bg-white rounded" href="#">Documentation</a></div>
@@ -50,13 +50,6 @@
           <div class="relative max-w-3xl mt-6 mb-8 mx-auto">
             <img src="metis-assets/elements/pattern-small.png" alt="">
             <div class="absolute" style="top: 3%; left: 9%; width: 82%; height: 90%;"><img class="object-contain w-full h-full" src="metis-assets/elements/app-mockup.png" alt=""></div>
-          </div>
-          <div class="flex flex-wrap items-center justify-center max-w-4xl mx-auto pt-8 pb-12">
-            <div class="w-1/2 md:w-1/3 lg:w-1/5 px-3 mb-8"><img class="mx-auto" src="metis-assets/logos/brands/tesla.svg" alt=""></div>
-            <div class="w-1/2 md:w-1/3 lg:w-1/5 px-3 mb-8"><img class="mx-auto" src="metis-assets/logos/brands/facebook.svg" alt=""></div>
-            <div class="w-1/2 md:w-1/3 lg:w-1/5 px-3 mb-8"><img class="mx-auto" src="metis-assets/logos/brands/marvel.svg" alt=""></div>
-            <div class="w-1/2 md:w-1/3 lg:w-1/5 px-3 mb-8"><img class="mx-auto" src="metis-assets/logos/brands/nike.svg" alt=""></div>
-            <div class="hidden md:block w-1/2 md:w-1/3 lg:w-1/5 px-3 mb-8"><img class="mx-auto" src="metis-assets/logos/brands/airbnb.svg" alt=""></div>
           </div>
         </div>
         <div class="hidden navbar-menu relative z-50">
