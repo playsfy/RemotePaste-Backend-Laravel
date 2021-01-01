@@ -42,7 +42,7 @@
                 <span>paste</span>
                 <span class="text-green-400">anywhere</span>
               </h2>
-              <p class="text-blueGray-400 leading-relaxed">Your clipboard data are secured so only you can read or paste to device, and nobody in between, not even <strong>CLIPUP</strong>./p>
+              <p class="text-blueGray-400 leading-relaxed">Your clipboard data are secured so only you can read or paste to device, and nobody in between, not even <strong>CLIPUP</strong>.</p>
             </div>
             <div>
                 <a class="block sm:inline-block py-4 px-8 text-xs text-blueGray-500 hover:text-blueGray-600 border border-green-200 text-center font-semibold leading-none bg-white rounded" href="#">Documentation</a></div>
@@ -66,7 +66,7 @@
             <div>
               <ul>
                 <li class="mb-1"><a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-600" href="#">Product</a></li>
-                <li class="mb-1"><a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-600" href="#">Company</a></li>
+                <li class="mb-1"><a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-600" href="#">Support</a></li>
                 <li class="mb-1"><a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-600" href="#">About Us</a></li>
                 <li class="mb-1"><a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-600" href="#">Features</a></li>
               </ul>
@@ -75,7 +75,7 @@
             <div class="mt-auto">
               <p class="my-4 text-xs text-blueGray-400">
                 <span>Get in Touch</span>
-                <a class="text-blue-600 hover:text-blue-600 underline" href="#">info@example.com</a>
+                <a class="text-blue-600 hover:text-blue-600 underline" href="#">hi@gitleaf.com</a>
               </p>
               <a class="inline-block px-1" href="#"><img src="metis-assets/icons/facebook-blue.svg" alt=""></a><a class="inline-block px-1" href="#"><img src="metis-assets/icons/twitter-blue.svg" alt=""></a><a class="inline-block px-1" href="#"><img src="metis-assets/icons/instagram-blue.svg" alt=""></a>
             </div>
