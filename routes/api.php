@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\API\UserController;
+use App\Http\Controllers\ClipStoreController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,4 +27,8 @@ Route::post('register', [UserController::class, 'oregister']);
 Route::get('listUsers', [UserController::class, 'userlist'])->middleware('auth:api');
 
 Route::get('userinfo', [UserController::class, 'userinfo']); 
+
+Route::post('/add/clipup', [ClipStoreController::class, 'store']);
+
+Route::post('/view/clipup', [ClipStoreController::class, 'store']);
 
