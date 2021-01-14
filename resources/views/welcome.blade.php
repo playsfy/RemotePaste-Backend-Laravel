@@ -16,7 +16,7 @@
     
       <section class="xl:bg-contain bg-top bg-no-repeat" style="background-image: url('metis-assets/backgrounds/intersect.svg');">
         <div class="container px-4 mx-auto">
-          <nav class="flex justify-between items-center py-6">
+          <nav class="flex justify-between fixed items-center py-6">
             <a class="text-3xl font-semibold leading-none" href="#"><img class="h-10" src="images/clipup-logo.png" alt="" width="auto"></a>
             <div class="lg:hidden">
               <button class="navbar-burger flex items-center py-2 px-3 text-blue-600 hover:text-blue-700 rounded border border-blue-200 hover:border-blue-300">
