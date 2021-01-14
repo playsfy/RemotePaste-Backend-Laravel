@@ -14,9 +14,9 @@
   <body class="antialiased bg-body text-body font-body">
     <div class=""> 
     
-      <section class="xl:bg-contain bg-top bg-no-repeat" style="background-image: url('metis-assets/backgrounds/intersect.svg');">
+      <section class="xl:bg-contain bg-white">
         <div class="container px-4 mx-auto">
-          <nav class="flex justify-between fixed items-center py-6">
+          <nav class="flex justify-between items-center py-6">
             <a class="text-3xl font-semibold leading-none" href="#"><img class="h-10" src="images/clipup-logo.png" alt="" width="auto"></a>
             <div class="lg:hidden">
               <button class="navbar-burger flex items-center py-2 px-3 text-blue-600 hover:text-blue-700 rounded border border-blue-200 hover:border-blue-300">
@@ -28,9 +28,9 @@
             </div>
             <ul class="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
               <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="#">Product</a></li>
-              <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="#">Company</a></li>
-              <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="#">About Us</a></li>
+              <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="#">Download</a></li>
               <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="#">Features</a></li>
+              <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="#">About Us</a></li>
             </ul>
             <div class="hidden lg:block"><a class="mr-2 inline-block px-4 py-3 text-xs text-green-400 hover:text-green-600 font-semibold leading-none border border-green-200 hover:border-green-300 rounded" href="/login">Log In</a><a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-green-400 hover:bg-green-600 text-white rounded" href="/register">Sign Up</a></div>
           </nav>
@@ -43,13 +43,11 @@
                 <span class="text-green-400">anywhere</span>
               </h2>
               <p class="text-blueGray-400 leading-relaxed">Your clipboard data are secured so only you can read or paste to device, and nobody in between, not even <strong>CLIPUP</strong>.</p>
-            </div>
-            <div>
-                <a class="block sm:inline-block py-4 px-8 text-xs text-blueGray-500 hover:text-blueGray-600 border border-green-200 text-center font-semibold leading-none bg-white rounded" href="#">Documentation</a></div>
+            </div>           
           </div>
           <div class="relative max-w-3xl mt-6 mb-8 mx-auto">
             <img src="metis-assets/elements/pattern-small.png" alt="">
-            <div class="absolute" style="top: 3%; left: 9%; width: 82%; height: 90%;"><img class="object-contain w-full h-full" src="metis-assets/elements/app-mockup.png" alt=""></div>
+            <div class="absolute" style="top: 3%; left: 9%; width: 82%; height: 90%;"><img class="object-contain w-full h-full" src="metis-assets/elements/undraw_online_transactions_02ka.svg" alt=""></div>
           </div>
         </div>
         <div class="hidden navbar-menu relative z-50">
@@ -89,7 +87,7 @@
             <div class="w-full lg:w-1/2">
               <div class="py-6 lg:pr-32">
                 <div class="mb-4">
-                  <span class="text-xs py-1 px-3 text-blue-600 font-semibold bg-blue-50 rounded-xl">Lorem ipsum</span>
+                  <span class="text-xs py-1 px-3 text-blue-600 font-semibold bg-blue-50 rounded-xl">Clipup</span>
                   <h2 class="text-4xl mt-3 font-bold font-heading">Key Features</h2>
                 </div>
                 <div class="flex items-start py-4">
@@ -127,38 +125,35 @@
                 </div>
               </div>
             </div>
-            <div class="relative w-full lg:w-1/2 my-12 lg:my-0"><img class="relative mx-auto rounded-xl w-full z-10" src="https://images.unsplash.com/photo-1536940135352-b4b3875df888?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1050&amp;h=1050&amp;q=80" alt=""><img class="absolute top-0 left-0 w-40 -ml-12 -mt-12" src="metis-assets/elements/blob-tear.svg" alt=""><img class="absolute bottom-0 right-0 w-40 -mr-12 -mb-12" src="metis-assets/elements/blob-tear.svg" alt=""></div>
+            <div class="relative w-full lg:w-1/2 my-12 lg:my-0"><img class="relative mx-auto rounded-xl w-full z-10" src="metis-assets/elements/undraw_sync4_xlc6.svg" alt=""><img class="absolute top-0 left-0 w-40 -ml-12 -mt-12" src="metis-assets/elements/blob-tear.svg" alt=""><img class="absolute bottom-0 right-0 w-40 -mr-12 -mb-12" src="metis-assets/elements/blob-tear.svg" alt=""></div>
           </div>
         </div>
       </section>
-    
-      <section class="py-20">
-        <div class="container px-4 mx-auto">
-          <div class="flex flex-wrap -mx-3">
-            <div class="w-full md:w-1/2 px-3 order-1 md:order-0">
-              <div class="max-w-md">
-                <h2 class="mb-4 text-3xl md:text-4xl font-bold font-heading">Lorem ipsum dolor sit amet consectutar domor</h2>
-                <p class="mb-6 leading-loose text-blueGray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis.</p>
-                <ul>
-                  <li class="py-4">
-                    <span class="inline-block py-2 px-3 mr-4 text-xs font-semibold bg-green-50 text-green-600 rounded">1</span>
-                    <span>Proin volutpat ex eu</span>
-                  </li>
-                  <li class="py-4">
-                    <span class="inline-block py-2 px-3 mr-4 text-xs font-semibold bg-green-50 text-green-600 rounded">2</span>
-                    <span>Fusce posuere nibh in cursus</span>
-                  </li>
-                  <li class="py-4">
-                    <span class="inline-block py-2 px-3 mr-4 text-xs font-semibold bg-green-50 text-green-600 rounded">3</span>
-                    <span>Maecenas sit amet vehicula</span>
-                  </li>
-                </ul>
-              </div>
+      <nav id="footer" class="bg-gray-500">
+        <div class="container mx-auto pt-8 pb-4">
+          <div class="flex flex-wrap overflow-hidden sm:-mx-1 md:-mx-px lg:-mx-2 xl:-mx-2">
+            <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
+                <img style="max-width: 70%;height:auto;" class="" src="images/clipup-logo.png" alt="Logo">
             </div>
-            <div class="w-full md:w-1/2 px-3 order-0 md:order-1 mb-12 md:mb-0"><img class="sm:max-w-sm lg:max-w-full mx-auto" src="metis-assets/illustrations/work-tv.png" alt=""></div>
+            <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
+               <h4 class="text-white"><a href="">Product</a></h4>
+            </div>
+            <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
+                <h4 class="text-white"><a href="">Download</a></h4>
+            </div>
+            <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
+                <h4 class="text-white"><a href="">About Us</a></h4>
+            </div>
+          </div>
+          <div class="pt-4 md:flex md:items-center md:justify-center " style="border-top:1px solid white">
+            <ul class="">
+                <li class="md:mx-2 md:inline leading-7 text-sm" id="footer-navi-2"><a class="text-white underline text-small" href="/disclaimer">Disclaimer</a></li>
+                <li class="md:mx-2 md:inline leading-7 text-sm" id="footer-navi-2"><a class="text-white underline text-small" href="/cookie">Cookie policy</a></li>
+                <li class="md:mx-2 md:inline leading-7 text-sm" id="footer-navi-2"><a class="text-white underline text-small" href="/privacy">Privacy</a></li>
+                </ul>
           </div>
         </div>
-      </section>
+      </nav>    
     </div>
   </body>
 </html>
