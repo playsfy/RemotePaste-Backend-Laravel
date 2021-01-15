@@ -34,21 +34,6 @@
             </ul>
             <div class="hidden lg:block"><a class="mr-2 inline-block px-4 py-3 text-xs text-green-400 hover:text-green-600 font-semibold leading-none border border-green-200 hover:border-green-300 rounded" href="/login">Log In</a><a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-green-400 hover:bg-green-600 text-white rounded" href="/register">Sign Up</a></div>
           </nav>
-          <div class="py-12 text-center">
-            <div class="max-w-lg mx-auto mb-8">
-              <h2 class="text-3xl md:text-4xl mb-4 font-bold font-heading">
-                <span>Copy</span>
-                <span class="text-green-400">once</span>
-                <span>paste</span>
-                <span class="text-green-400">anywhere</span>
-              </h2>
-              <p class="text-blueGray-400 leading-relaxed">Your clipboard data are secured so only you can read or paste to device, and nobody in between, not even <strong>CLIPUP</strong>.</p>
-            </div>           
-          </div>
-          <div class="relative max-w-3xl mt-6 mb-8 mx-auto">
-            <img src="metis-assets/elements/pattern-small.png" alt="">
-            <div class="absolute" style="top: 3%; left: 9%; width: 82%; height: 90%;"><img class="object-contain w-full h-full" src="metis-assets/elements/undraw_online_transactions_02ka.svg" alt=""></div>
-          </div>
         </div>
         <div class="hidden navbar-menu relative z-50">
           <div class="navbar-backdrop fixed inset-0 bg-blueGray-800 opacity-25"></div>
