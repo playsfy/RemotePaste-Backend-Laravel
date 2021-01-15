@@ -98,7 +98,7 @@
                   </div>
                   <div>
                     <h3 class="mb-2 text-xl font-semibold font-heading">Work with you & background</h3>
-                    <p class="text-blueGray-400 leading-loose">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.</p>
+                    <p class="text-blueGray-400 leading-loose">We give you a remote clipboard service so we'll watch your clipboard with your permission to provide our service.</p>
                   </div>
                 </div>
                 <div class="flex items-start py-4">
@@ -109,7 +109,7 @@
                   </div>
                   <div>
                     <h3 class="mb-2 text-xl font-semibold font-heading">Flexible and cross platefom software</h3>
-                    <p class="text-blueGray-400 leading-loose">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.</p>
+                    <p class="text-blueGray-400 leading-loose">Provide the best service to you for we are developing various type of operating system apps.</p>
                   </div>
                 </div>
                 <div class="flex items-start py-4">
@@ -120,7 +120,7 @@
                   </div>
                   <div>
                     <h3 class="mb-2 text-xl font-semibold font-heading">Best access for your clipboard</h3>
-                    <p class="text-blueGray-400 leading-loose">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.</p>
+                    <p class="text-blueGray-400 leading-loose">Your clipboard data, if you have an internet connection, transmit your data to your other device secure and real-time.</p>
                   </div>
                 </div>
               </div>
