@@ -47,7 +47,7 @@
           </div>
           <div class="relative max-w-3xl mt-6 mb-8 mx-auto">
             <img src="metis-assets/elements/pattern-small.png" alt="">
-            <div class="absolute" style="top: 3%; left: 9%; width: 82%; height: 90%;"><img class="object-contain w-full h-full" src="metis-assets/elements/undraw_online_transactions_02ka.svg" alt=""></div>
+            <div class="absolute" style="top: 3%; left: 9%; width: 82%; height: 90%;"><img class="object-contain w-full h-full" src="metis-assets/elements/clipup icon_undraw_online_transactions_02ka.svg" alt=""></div>
           </div>
         </div>
         <div class="hidden navbar-menu relative z-50">
@@ -125,7 +125,7 @@
                 </div>
               </div>
             </div>
-            <div class="relative w-full lg:w-1/2 my-12 lg:my-0"><img class="relative mx-auto rounded-xl w-full z-10" src="metis-assets/elements/undraw_sync4_xlc6.svg" alt=""><img class="absolute top-0 left-0 w-40 -ml-12 -mt-12" src="metis-assets/elements/blob-tear.svg" alt=""><img class="absolute bottom-0 right-0 w-40 -mr-12 -mb-12" src="metis-assets/elements/blob-tear.svg" alt=""></div>
+            <div class="relative w-full lg:w-1/2 my-12 lg:my-0"><img class="relative mx-auto rounded-xl w-full z-10" src="metis-assets/elements/clipup icon_undraw_sync4_xlc6.svg" alt=""><img class="absolute top-0 left-0 w-40 -ml-12 -mt-12" src="metis-assets/elements/blob-tear.svg" alt=""><img class="absolute bottom-0 right-0 w-40 -mr-12 -mb-12" src="metis-assets/elements/blob-tear.svg" alt=""></div>
           </div>
         </div>
       </section>
