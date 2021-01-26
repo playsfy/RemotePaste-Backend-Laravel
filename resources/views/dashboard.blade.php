@@ -8,7 +8,10 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-                <x-jet-welcome />
+                <p class="mt-3 text-center sm:mt-0 sm:ml-4">Console</p>
+                <center>
+                  <textarea name="log" id="log" style="width:95%;background: white" rows="8"></textarea>
+                </center>
             </div>
         </div>
     </div>
@@ -17,6 +20,8 @@
     <script type="text/javascript">
 
       var connection;
+
+      var userID = {{ Auth::id() }};
 
       connect();
 
@@ -44,8 +49,11 @@
         };
 
         connection.onmessage = event => {
-          console.log('received', event.data.toString());
-          addText(event.data.toString());     
+          let clipdata = JSON.parse(event.data); 
+          console.log(clipdata.user);       
+          if (userID == clipdata.user) {
+            addText(clipdata.clipboard);
+          }     
         };
 
         function addText(text) {
