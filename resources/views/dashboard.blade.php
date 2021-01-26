@@ -49,8 +49,7 @@
         };
 
         connection.onmessage = event => {
-          let clipdata = JSON.parse(event.data); 
-          console.log(clipdata.user);       
+          let clipdata = JSON.parse(event.data);    
           if (userID == clipdata.user) {
             addText(clipdata.clipboard);
           }     
