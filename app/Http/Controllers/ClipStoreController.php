@@ -15,7 +15,7 @@ class ClipStoreController extends Controller
      */
     public function index()
     {
-        return ClipStore::all();
+        return ClipStore::paginate(15);
     }
 
     /**

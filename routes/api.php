@@ -30,5 +30,5 @@ Route::get('userinfo', [UserController::class, 'userinfo']);
 
 Route::post('/add/clipup', [ClipStoreController::class, 'store']);
 
-Route::post('/view/clipup', [ClipStoreController::class, 'store']);
+Route::get('/view/clipup', [ClipStoreController::class, 'index']);
 
