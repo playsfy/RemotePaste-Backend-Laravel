@@ -42,7 +42,12 @@ class ClipStoreController extends Controller
         $data->clipups    = $request->all();
 
         if($data->save()){
-            return Response::json({"status": 200, "message": "data added successful"});
+
+             return response()->json([
+                'status'  => 200,
+                'data'    => $data,
+                'message' => 'data added successful..'
+            ]);
         }
     }
 
