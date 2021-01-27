@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\ClipStore;
 use Illuminate\Http\Request;
+use Response;
 
 class ClipStoreController extends Controller
 {
@@ -40,7 +41,9 @@ class ClipStoreController extends Controller
         $data->userId     =  1;   
         $data->clipups    = $request->all();
 
-        $data->save()
+        if($data->save()){
+            return Response::json({"status": 200, "message": "data added successful"});
+        }
     }
 
     /**
