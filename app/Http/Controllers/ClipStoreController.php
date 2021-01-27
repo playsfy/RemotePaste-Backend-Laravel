@@ -39,7 +39,7 @@ class ClipStoreController extends Controller
         $data = new ClipStore;
 
         $data->userId     =  1;   
-        $data->clipups    = $request->all();
+        $data->clipups    = $request->data;
 
         if($data->save()){
 
