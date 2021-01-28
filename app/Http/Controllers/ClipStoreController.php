@@ -38,7 +38,7 @@ class ClipStoreController extends Controller
     {
         $data = new ClipStore;
 
-        $data->userId     =  1;   
+        $data->userId     =  1;   //it will change uniquser
         $data->clipups    = $request->data;
 
         if($data->save()){
