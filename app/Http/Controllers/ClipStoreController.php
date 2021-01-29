@@ -38,12 +38,12 @@ class ClipStoreController extends Controller
     {
         $data = new ClipStore;
 
-        $data->userId     =  $request->duserID; 
+        $data->userId     =  $request->userID; 
         $data->clipups    = $request->data;
 
         if($data->save()){
 
-             return response()->json([
+            return response()->json([
                 'status'  => 200,
                 'data'    => $data,
                 'message' => 'data added successful..'
