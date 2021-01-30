@@ -36,19 +36,32 @@ class ClipStoreController extends Controller
      */
     public function store(Request $request)
     {
-        $data = new ClipStore;
 
-        $data->userId     =  $request->userID; 
-        $data->clipups    = $request->data;
+        $exist = ClipStore::where('userId', $request->userID)->get();
+        if (!$exist) {
+            $data = new ClipStore;
 
-        if($data->save()){
+            $data->userId     =  $request->userID; 
+            $data->clipups    = $request->data;
 
-            return response()->json([
-                'status'  => 200,
-                'data'    => $data,
-                'message' => 'data added successful..'
-            ]);
+            if($data->save()){
+
+                return response()->json([
+                    'status'  => 200,
+                    'data'    => $data,
+                    'message' => 'data added successful..'
+                ]);
+            }
         }
+        else
+        {
+            return response()->json([
+                    'status'  => 200,
+                    'data'    => $data,
+                    'message' => 'data already exists..'
+                ]);
+        }
+        
     }
 
     /**
