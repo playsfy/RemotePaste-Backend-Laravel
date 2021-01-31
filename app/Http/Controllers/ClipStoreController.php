@@ -57,7 +57,7 @@ class ClipStoreController extends Controller
         {
             return response()->json([
                     'status'  => 200,
-                    'data'    => $data,
+                    'data'    =>[],
                     'message' => 'data already exists..'
                 ]);
         }
