@@ -15,6 +15,20 @@
 
         @livewireStyles
 
+        <style type="text/css">
+            textarea {
+                border: none;
+                overflow: auto;
+                outline: none;
+
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+
+                resize: none; /*remove the resize handle on the bottom right*/
+            }
+        </style>
+
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
     </head>

@@ -8,9 +8,9 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-                <p class="mt-3 text-center sm:mt-0 sm:ml-4">Console</p>
+                <p class="mt-3 text-center sm:mt-0 sm:ml-4" style="margin-top: 10px; font-weight: 700;">Console</p>
                 <center>
-                  <textarea name="log" id="log" style="width:95%;background: white" rows="8"></textarea>
+                  <textarea readonly name="log" id="log" style="width:95%;background: white" rows="8"></textarea>
                 </center>
             </div>
         </div>
