@@ -14,6 +14,9 @@ use App\Http\Controllers\ClipStoreController;
 */
 
 Route::get('/', function () {
+	if (Auth::check()) {
+    	return view('dashboard');
+	}
     return view('welcome');
 });
 
