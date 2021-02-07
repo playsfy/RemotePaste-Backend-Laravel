@@ -24,8 +24,9 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/reciever', [ClipStoreController::class, 'store']);
-
+Route::get('/download', function () {
+    return view('download');
+});
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

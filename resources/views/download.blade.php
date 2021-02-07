@@ -34,21 +34,6 @@
             </ul>
             <div class="hidden lg:block"><a class="mr-2 inline-block px-4 py-3 text-xs text-green-400 hover:text-green-600 font-semibold leading-none border border-green-200 hover:border-green-300 rounded" href="/login">Log In</a><a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-green-400 hover:bg-green-600 text-white rounded" href="/register">Sign Up</a></div>
           </nav>
-          <div class="py-12 text-center">
-            <div class="max-w-lg mx-auto mb-8">
-              <h2 class="text-3xl md:text-4xl mb-4 font-bold font-heading">
-                <span>Copy</span>
-                <span class="text-green-400">once</span>
-                <span>paste</span>
-                <span class="text-green-400">anywhere</span>
-              </h2>
-              <p class="text-blueGray-400 leading-relaxed">Your clipboard data are secured so only you can read or paste to device, and nobody in between, not even <strong>CLIPUP</strong>.</p>
-            </div>           
-          </div>
-          <div class="relative max-w-3xl mt-6 mb-8 mx-auto">
-            <img src="metis-assets/elements/pattern-small.png" alt="">
-            <div class="absolute" style="top: 3%; left: 9%; width: 82%; height: 90%;"><img class="object-contain w-full h-full" src="metis-assets/elements/undraw_online_transactions_02ka.svg" alt=""></div>
-          </div>
         </div>
         <div class="hidden navbar-menu relative z-50">
           <div class="navbar-backdrop fixed inset-0 bg-blueGray-800 opacity-25"></div>
@@ -88,7 +73,7 @@
               <div class="py-6 lg:pr-32">
                 <div class="mb-4">
                   <span class="text-xs py-1 px-3 text-blue-600 font-semibold bg-blue-50 rounded-xl">Clipup</span>
-                  <h2 class="text-4xl mt-3 font-bold font-heading">Key Features</h2>
+                  <h2 class="text-4xl mt-3 font-bold font-heading">Download</h2>
                 </div>
                 <div class="flex items-start py-4">
                   <div class="w-8 mr-5 text-blue-500">
@@ -97,8 +82,8 @@
                     </svg>
                   </div>
                   <div>
-                    <h3 class="mb-2 text-xl font-semibold font-heading">Work with you & background</h3>
-                    <p class="text-blueGray-400 leading-loose">We give you a remote clipboard service so we'll watch your clipboard with your permission to provide our service.</p>
+                    <h3 class="mb-2 text-xl font-semibold font-heading">Ready Web based version</h3>
+                    <p class="text-blueGray-400 leading-loose">Real Time view and handle your data.</p>
                   </div>
                 </div>
                 <div class="flex items-start py-4">
@@ -108,8 +93,8 @@
                     </svg>
                   </div>
                   <div>
-                    <h3 class="mb-2 text-xl font-semibold font-heading">Flexible and cross platefom software</h3>
-                    <p class="text-blueGray-400 leading-loose">Provide the best service to you for we are developing various type of operating system apps.</p>
+                    <h3 class="mb-2 text-xl font-semibold font-heading">Desktop Application also ready</h3>
+                    <p class="text-blueGray-400 leading-loose"> <a class="text-green-600" href="">Download </a> and install your pc </p>
                   </div>
                 </div>
                 <div class="flex items-start py-4">
@@ -119,8 +104,8 @@
                     </svg>
                   </div>
                   <div>
-                    <h3 class="mb-2 text-xl font-semibold font-heading">Best access for your clipboard</h3>
-                    <p class="text-blueGray-400 leading-loose">Your clipboard data, if you have an internet connection, transmit your data to your other device secure and real-time.</p>
+                    <h3 class="mb-2 text-xl font-semibold font-heading">Mobile Application ongoing build process</h3>
+                    <p class="text-blueGray-400 leading-loose">Please wait</p>
                   </div>
                 </div>
               </div>
